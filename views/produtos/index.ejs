@@ -1,0 +1,34 @@
+<%- contentFor('body') %>
+    <div class="alert alert-dark" role="alert">
+        <h4>Produtos</h4>
+    </div>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>descrição</th>
+                <th>valor</th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Luvas de Box</th>
+                <td>Equipamento para praticar o esporte.</td>
+                <td>R$ 300,00</td>
+                <td><a href="/edit_produtos" class="btn btn-dark rounded-circle">
+                    Editar </a></td>
+
+                <td><a href="/delete_produtos" class="btn btn-danger rounded-circle">
+                        Excluir</a></td>
+
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="fixed-bottom">
+        <a href="/add_produtos" class="btn-lg btn-dark float-right rounded-circle"
+            style="margin-bottom: 2rem; margin-right: 2em;">Adicionar
+        </a>
+    </div>

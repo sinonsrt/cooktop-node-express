@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <%- include layouts/header %>
+    <body>
+        <%- include layouts/navbar %>
+            <div>
+                <div class="row">
+                    <div class="col-sm-2">
+                        <%- include layouts/menu %>
+                    </div>
+                    <div class="col-sm-10 mt-3">
+                        <%- body %>
+                    </div>
+                </div>
+            </div>
+            <%- include layouts/footer %>
+    </body>
+</html>

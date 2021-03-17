@@ -1,0 +1,37 @@
+<%- contentFor('body') %>
+<div class="alert alert-dark" role="alert">
+    <h4>Usuários</h4>
+</div>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Cidade</th>
+            <th>Estado</th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>Lucas M</th>
+            <th>Umuarama</th>
+            <th>Paraná</th>
+            <td>
+                <a href="/edit usuarios" class="btn btn-dark rounded-circle">
+                   Editar
+                </a>
+            </td>
+            <td>
+                <button type="button" class="btn btn-danger rounded-circle">
+                    Excluir
+                </button>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<div class="fixed-bottom">
+    <a href="/add usuarios" class="btn-lg btn-dark float-right rounded-circle" style="margin-bottom: 2em; margin-right: 2em;">
+        Adicionar
+    </a>
+</div>
